@@ -3,5 +3,11 @@ name = "recipe-chatbot"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.11"
-dependencies = []
+requires-python = ">=3.13"
+dependencies = [
+    "dotenv>=0.9.9",
+    "fastapi>=0.118.0",
+    "mirascope[google,openai]>=1.25.6",
+    "monsterui>=1.0.29",
+    "rich>=14.1.0",
+]
